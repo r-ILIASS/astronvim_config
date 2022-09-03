@@ -210,7 +210,6 @@ local config = {
         -- Set a formatter
         null_ls.builtins.formatting.stylua,
         null_ls.builtins.formatting.prettier,
-        null_ls.builtins.formatting.eslint,
       }
       -- set up null-ls's on_attach function
       -- NOTE: You can remove this on attach function to disable format on save
