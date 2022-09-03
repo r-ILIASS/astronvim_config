@@ -209,6 +209,7 @@ local config = {
       config.sources = {
         -- Set a formatter
         null_ls.builtins.formatting.stylua,
+        null_ls.builtins.diagnostics.eslint,
         null_ls.builtins.formatting.prettier,
       }
       -- set up null-ls's on_attach function
